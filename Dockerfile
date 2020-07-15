@@ -38,11 +38,12 @@ lammps-gpu package."
 
 RUN apt-get update && apt-get  install -y --no-install-recommends \
 	git make wget libfftw3-dev \
-    mpich gfortran build-essential
+    	mpich gfortran build-essential
 
 RUN rm -rf /var/lib/apt/lists/*
 
-RUN git clone git://git.lammps.org/lammps-ro.git /srv/lammps &&\ 
+RUN git config --global http.sslVerify "false"
+RUN git clone https://github.com/lammps/lammps.git /srv/lammps &&\
     cd /srv/lammps && \
     git checkout r15407 && \
     cd src && \

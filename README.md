@@ -2,8 +2,10 @@
 lammps image for  docker 
 
 ### Column Name
-- [ ] Task title ~3d #type @name yyyy-mm-dd  
-  - [ ] Sub-task or description 
+- [ ] add cuda   
+  - [ ] install cuda
+  - [ ] compile lammps with cuda
+
  
 ### Completed Column ✓
-- [x] Completed task title  
+- [x] combile lammps on ubuntu 18.04  

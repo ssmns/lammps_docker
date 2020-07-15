@@ -24,4 +24,4 @@ some package ( gpu / kokkos) need to compile and in future we add this package t
 
  
 ### Completed Column ✓
-- [x] combile lammps on ubuntu 18.04  
+- [x] compile lammps on ubuntu 18.04  

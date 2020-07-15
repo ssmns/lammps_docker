@@ -37,8 +37,8 @@ lammps-gpu package."
 # Install Lammps
 
 RUN apt-get update && apt-get  install -y --no-install-recommends \
-	git make wget python-devel fftw3devel \
-    mpich-devel gfortran build-essential
+	git make wget libfftw3-dev \
+    mpich gfortran build-essential
 
 RUN rm -rf /var/lib/apt/lists/*
 

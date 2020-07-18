@@ -62,7 +62,8 @@ mpirun -np 4 lmp_gpu -in /srv/lammps/bench/in.lj -sf gpu
 
  
 ### Completed Column ✓
+~~- [x] compile lammps on ubuntu 18.04~~
+
 - [x] add cuda   
   - [x] install cuda
   - [x] compile lammps with cuda
-~~- [x] compile lammps on ubuntu 18.04~~
